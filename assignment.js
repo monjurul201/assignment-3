@@ -1,9 +1,9 @@
 
-
+//Problem:1
 
 function kilometerToMeter(kilometer) {
     if (kilometer < 0) {
-        return "kilometer cannot be negative.";
+        return "kilometer's value cannot be negative.";
 
     }
     else {
@@ -12,8 +12,8 @@ function kilometerToMeter(kilometer) {
     }
     return meter;
 }
-var output = kilometerToMeter(-4);
-console.log(output);
+
+console.log(kilometerToMeter(4));
 
 
 //Problem:2
@@ -74,4 +74,4 @@ function megaFriend(friendsName) {
     return bigName;
 }
 
-console.log(typeof megaFriend(["amin", "jalaol", "khalila", "balila", "amina", "jaminadsfgsg"]));
+console.log( megaFriend(["amin", "jalaol", "khalila", "balila", "amina", "jaminadsfgsg"]));
