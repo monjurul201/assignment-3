@@ -1,6 +1,6 @@
 
 
-
+//https://github.com/monjurul201/assignment-3
 
 
 //Problem:1
@@ -17,9 +17,6 @@ function kilometerToMeter(kilometer) {
     
 }
 
-
-
-
 //Problem:2
 
 function budgetCalculator(watch, mobile, laptop) {
@@ -30,8 +27,6 @@ function budgetCalculator(watch, mobile, laptop) {
         return (watch * 50) + (mobile * 50) + (laptop * 500);
     }
 }
-
-
 
 //problem:3
 
@@ -58,10 +53,7 @@ function hotelCost(days) {
     }
 }
 
-
-
 //problem:4
-
 
 function megaFriend(friendsName) {
     var bigName = friendsName[0];
